@@ -1,0 +1,264 @@
+body{
+    background-color: var(--celesteclaro);
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --amarillo: rgb(244, 208, 63);
+    --azuloscuro: rgb(23,14,61);
+    --azul: rgb(0,45,146);
+    --celeste: rgb(162, 191, 250 );
+    --celesteclaro: rgb(208, 236, 231);
+    --blanco: rgb(243, 243, 243);
+    --fuente1: 'Quicksand', sans-serif;
+    --fuente2: 'Rubik', sans-serif;
+    --fuente3: 'Noto Sans JP', sans-serif;
+}
+
+/* -----------------------------------menu */
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: var(--celeste);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.menu{
+    height: 150px;
+    margin: 0%;
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.menu a{
+    margin: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fuente1);
+    color: var(--azuloscuro);
+}
+
+.menu a:hover {
+    color: var(--blanco);
+    transition: 500,s;
+}
+
+/* -------------------------inicio */
+
+.main-index{
+    width: 85%;
+    margin: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bienvenida{
+    height: 100%;
+    width: 450px;
+    background-color: var(--amarillo);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+h1{
+    font-family: var(--fuente1);
+    color: var(--azuloscuro);
+}
+ 
+.bienvenida h2{
+    color: var(--azuloscuro);
+    font-size: 40px;
+    font-family: var(--fuente2);
+}
+
+.bienvenida p{
+    color: black;
+    font-family: var(--fuente3);
+}
+
+/* --------------------------------Trayectoria */
+
+.main-trayectoria{
+    margin: 75px;
+    margin-left: 200px;
+    width: 65%;
+}
+
+.main-trayectoria h1{
+    justify-self: center;
+    color: var(--azuloscuro);
+    font-size: 40px;
+    font-family: var(--fuente2);
+}
+
+.estudios{
+    padding: 45px;
+    padding-left: 50px;
+    border-radius: 10px;
+    background-color: var(--amarillo);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-estudios{
+    width: 600px;
+    list-style: none;
+}
+
+.main-trayectoria h2{
+    color: var(--azuloscuro);
+    font-family: var(--fuente1);
+}
+
+.main-trayectoria h3{
+    color: var(--azul);
+    font-family: var(--fuente2);
+}
+
+.main-trayectoria p{
+    color: black;
+    font-family: var(--fuente3);
+}
+
+.main-trayectoria img{
+    margin-top: 20px;
+    width: 350px;
+    height: 500px;
+}
+
+.skills{
+    margin-top: 20px;
+    background-color: var(--celeste);
+    display: flex;
+    padding: 45px;
+    padding-left: 50px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.contenido-skills{
+    list-style: none;
+    width: 600px;
+}
+
+/* --------------------------------Proyectos */
+
+.main-proyectos{
+    margin: 75px;
+    width: 85%;
+}
+
+.main-proyectos h1{
+    justify-self: center;
+    color: var(--azuloscuro);
+    font-size: 40px;
+    font-family: var(--fuente2);
+}
+
+.main-proyectos h2{
+    color: var(--azuloscuro);
+    font-family: var(--fuente1);
+}
+
+.main-proyectos p{
+    color: black;
+    font-family: var(--fuente3);
+}
+
+.main-proyectos img{
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proyecto1{
+    background-color: var(--amarillo);
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.proyecto2{
+    border-radius: 15px;
+    padding: 25px;
+    background-color: var(--celeste);
+    width: 300px;
+    margin-top: 40px;
+}
+
+/* -------------------------- contacto */
+
+.main-contacto{
+    margin: 75px;
+    width: 85%;
+    align-self: center;
+}
+
+.main-contacto h1{
+    justify-self: center;
+    color: var(--azuloscuro);
+    font-size: 40px;
+    font-family: var(--fuente2);
+}
+
+.main-contacto h2{
+    color: var(--azuloscuro);
+    font-family: var(--fuente1);
+}
+
+.main-contacto p{
+    color: black;
+    font-family: var(--fuente3);
+}
+.main-c h3{
+    color: var(--azuloscuro);
+    font-family: var(--fuente1);
+}
+
+.contenido-contacto{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--amarillo);
+    border-radius: 20px;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--fuente1);
+}
+
+.formulario{
+    color: black;
+    font-family: var(--fuente1);
+}
+
+.formulario input{
+    background-color: var(--celeste);
+    text-decoration: none;
+    color: var(--azul);
+    font-size: 20px;
+}
